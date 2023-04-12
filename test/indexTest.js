@@ -1,5 +1,9 @@
 require ( './helpers.js' );
 
+const employee = {
+  name: "Andrew"
+}
+
 describe('employees', function() {
   describe('updateEmployeeWithKeyAndValue(employee, key, value)', function () {
     beforeEach(function () {
